@@ -1,0 +1,81 @@
+[
+  {
+    "_id" : ObjectId("5aef2245ce795f174019c4d2"),
+    "nome": "Jefferson Carvalho Santana",
+    "apelido": "Jeff Atacado",
+    "cpf": "343101658885",
+    "transacoes": 10,
+    "reputacao": 3,
+    "endereço_cobrança": {
+      "rua": "do Ouro",
+      "numero": "1294",
+      "bairro": "Jardim Mollon",
+      "cidade": "Santa Bárbara D' Oeste",
+      "estado": "São Paulo",
+      "cep": "13456447"
+    },
+    "endereçoEntrega": {
+      "rua": "do Ouro",
+      "numero": "1294",
+      "bairro": "Jardim Mollon",
+      "cidade": "Santa Bárbara D' Oeste",
+      "estado": "São Paulo",
+      "cep": "13456447"
+    },
+    "produtos": [
+      {
+        "produto_id": ObjectId("5aefb822ce795f174019c4df"),
+        "estoque": 5,
+        "valor_minimo": 45995,
+        "valor_maximo": 55995,
+        "moeda": "USD",
+        "observacao": "Cor cinza",
+        "data": 20180406
+      }
+    ]
+  },
+  {
+    "_id" : ObjectId("5aefb749ce795f174019c4d8"),
+    "nome": "Camila Camargo",
+    "apelido": "Camargo Store",
+    "cpf": "36129630824",
+    "transacoes": 25,
+    "reputacao": 5,
+    "endereço_cobrança": {
+      "rua": "do Ouro",
+      "numero": "1302",
+      "bairro": "Jardim Mollon",
+      "cidade": "Santa Bárbara D' Oeste",
+      "estado": "São Paulo",
+      "cep": "13456447"
+    },
+    "endereçoEntrega": {
+      "rua": "do Ouro",
+      "numero": "1302",
+      "bairro": "Jardim Mollon",
+      "cidade": "Santa Bárbara D' Oeste",
+      "estado": "São Paulo",
+      "cep": "13456447"
+    },
+    "produtos": [
+      {
+        "produto_id": ObjectId("5aefb82cce795f174019c4e0"),
+        "estoque": 10,
+        "valor_minimo": 39995,
+        "valor_maximo": 49995,
+        "moeda": "USD",
+        "observacao": "",
+        "data": 20180404
+      },
+      {
+        "produto_id": ObjectId("5aefb822ce795f174019c4df"),
+        "estoque": 1,
+        "valor_minimo": 49995,
+        "valor_maximo": 59995,
+        "moeda": "USD",
+        "observacao": "Cor preto",
+        "data": 20180403
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+<CARD>
+  <Foto do Produto> "/apple-iphone-x-256-gb.jpg"
+  <Nome do Produto> "Apple Iphone X 256gb"
+  <Responsável>
+    <Range de Valor> 45995-55995 / <Unidade> "peça"
+    <Observação>
+    <Estoque> 5
+    <Apelido> "Jeff Atacado"
+    <Estado> "São Paulo"
+    <Número de transações> 10
+    <Reputação> 3
+    <Data>
+    <#Enviar Proposta>
+  </Responsável>
+</CARD>

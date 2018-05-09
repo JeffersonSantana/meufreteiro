@@ -1,0 +1,66 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+  font-family: 'Roboto', sans-serif;
+  background: #ebebeb;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.navbar {
+  background-color: #fff159;
+}
+
+.nav-link {
+  color: #333;
+}
+
+.navbar-brand {
+  font-family: 'Black Han Sans', sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+.card {
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.card > a {
+  text-align: center;
+  height: 200px;
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+}
+
+.card-img-top {
+  width: auto;
+  height: 100%;
+  max-height: 200px;
+  vertical-align: middle;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.rating-user {
+  color: #ffc107;
+  font-size: 25px;
+  letter-spacing: -.15em;
+}
+
+footer {
+  background: #fff;
+  color: #333;
+}

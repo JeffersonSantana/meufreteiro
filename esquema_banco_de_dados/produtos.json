@@ -1,0 +1,22 @@
+[
+  {
+    "_id": ObjectId("5aefb822ce795f174019c4df"),
+    "foto": "https://www.t-mobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-x/silver/Apple-iPhoneX-Silver-1-3x.jpg",
+    "produto": "Apple Iphone X 256gb",
+    "categoria": "Celular",
+    "marca": "Apple",
+    "descricao": "Celular da marca Apple de última geração com 256gb",
+    "unidade_medida": "peça",
+    "avaliado": true
+  },
+  {
+    "_id": ObjectId("5aefb82cce795f174019c4e0"),
+    "foto": "https://static.blog.playstation.com/wp-content/uploads/2016/09/LEAD_ProFAQ.jpg",
+    "produto": "Sony PlayStation 4 PRO 2tb",
+    "categoria": "Console",
+    "marca": "Sony",
+    "descricao": "Video game PlayStation 4 PRO, lançamento.",
+    "unidade_medida": "peça",
+    "avaliado": true
+  }
+]

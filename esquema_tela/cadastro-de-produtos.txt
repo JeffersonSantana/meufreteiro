@@ -1,0 +1,8 @@
+<Form>
+  <@Produto>
+  <@Fotos do Produto>
+  <@Categoria>
+  <@Marca>
+  <@Descrição>
+  <@Unidade de Medida>
+</Form>
