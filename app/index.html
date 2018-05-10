@@ -17,7 +17,7 @@
     <link href="css/shop-homepage.css" rel="stylesheet">
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto" rel="stylesheet">
 
   </head>
 
@@ -26,25 +26,22 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
-        <h1 class="navbar-brand">Meu Freteiro</h1>
+        <h1 class="navbar-brand">
+          <a href="/">Meu Freteiro</a>
+        </h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link" href="/sobre-nos">Crie sua conta</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="/nossos-servicos">Entre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="/fale-com-a-gente">Contato</a>
             </li>
           </ul>
         </div>
@@ -62,13 +59,14 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active">
-            <img class="d-block img-fluid" src="http://placehold.it/1110x350" alt="First slide">
+
+            <img class="d-block img-fluid" src="img/1.png" alt="First slide"><!-- http://placehold.it/1110x350 -->
           </div>
           <div class="carousel-item">
-            <img class="d-block img-fluid" src="http://placehold.it/1110x350" alt="Second slide">
+            <img class="d-block img-fluid" src="img/2.png" alt="Second slide"><!-- http://placehold.it/1110x350 -->
           </div>
           <div class="carousel-item">
-            <img class="d-block img-fluid" src="http://placehold.it/1110x350" alt="Third slide">
+            <img class="d-block img-fluid" src="img/3.png" alt="Third slide"><!-- http://placehold.it/1110x350 -->
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -171,6 +169,11 @@
     <footer class="py-5">
       <div class="container">
         <p class="m-0 text-center">Copyright &copy; Meu Freteiro 2018</p>
+        <p class="text-center">
+          <a href="/sobre-nos">Sobre Nós</a> |
+          <a href="/nossos-servicos">Nossos Serviços</a> |
+          <a href="/fale-com-a-gente">Fale com a gente!</a>
+        </p>
       </div>
       <!-- /.container -->
     </footer>
